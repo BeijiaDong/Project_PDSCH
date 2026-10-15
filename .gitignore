@@ -1,0 +1,20 @@
+# Publish source code, runtime data, and setup instructions.
+*
+!*/
+!*.py
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/shift_coeffs_bg_1.mat
+!/shift_coeffs_bg_2.mat
+!/qam_ref_38_211.csv
+
+# Exclude environments and caches even when they contain Python files.
+__pycache__/
+.venv/
+venv/
+env/
+.pytest_cache/
+.verification/
+/results/
+/figures/
